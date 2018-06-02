@@ -1,19 +1,22 @@
 {
-  "name": "izzie-ca",
-  "description": "A website for Izzie. Finally",
+  "name": "tes",
+  "description": "test",
   "version": "0.0.1",
-  "author": "iCOlpitts",
+  "author": "test",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/iCOlpitts/izzie-ca/issues",
+  "bugs": "https://github.com/test/tes/issues",
   "dependencies": {
     "reshape-standard": "^3.0.0",
     "spike-css-standards": "^3.0.0",
+    "spike-datocms": "^2.3.1",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
-    "spike": "^2.0.0"
+    "spike": "^2.0.0",
+    "sugarml": "^0.6.0",
+    "sugarss": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
@@ -21,10 +24,10 @@
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   },
-  "homepage": "https://github.com/iCOlpitts/izzie-ca",
+  "homepage": "https://github.com/test/tes",
   "main": "app.js",
   "private": true,
-  "repository": "https://github.com/iCOlpitts/izzie-ca",
+  "repository": "https://github.com/test/tes",
   "scripts": {
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
