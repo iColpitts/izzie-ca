@@ -6,6 +6,8 @@ body {
 }
 h1 {
     font-weight: 900;
+    font-style: italic;
+    font-weight: bolder;
 }
 a {
     color: #000;
@@ -21,21 +23,6 @@ a:hover, a:visited {
   text-decoration: none;
 }
 
-#logo{
-    left: 0;
-    top: 0;
-    text-align: left;
-    padding-left: 120px;
-    /*z-index: 1;*/
-    /*position: fixed;*/
-}
-.whitebg {
-    background-color: #fff;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
 .trans {
 	max-height: 100vh;
 	max-width: 100vh;
@@ -72,18 +59,6 @@ a:hover, a:visited {
 }
 #bg2 {
 	display: none;
-}
-#header {
-    padding-top: 40px;
-    text-align: center;
-    background: rgba(255,255,255,1);
-    height: 10px;
-    /*width: 100%;*/
-    /*position: fixed;*/
-    left: 0;
-    top: 0;
-    /*z-index: 1;*/
-    /*padding-right: 100px*/
 }
 #bgvid {
     position: fixed;

@@ -1,3 +1,15 @@
+
+.container {
+    display: flex;
+    text-align: center;
+}
+.whitebg {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
 #trans-block {
     display: block;
     opacity: 1;
@@ -6,6 +18,25 @@
     padding-bottom: 100px;
     padding-top: 100px;
 }
-.container {
-    text-align: center;
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  height: 100px;
+}
+.nav-links {
+  padding-right: 120px;
+}
+.nav-left {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 120px;
+}
+.logo{
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: auto;
 }
