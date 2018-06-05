@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='content')
-    video(id="bgvid" autoplay loop muted poster="https://www.datocms-assets.com/{{dato.home[0].loading.path}}")
-          source(src="https://www.datocms-assets.com/{{dato.home[0].bgMedia.path}}" type="video/webm")
+    video(id="bgvid" autoplay loop muted poster="https://www.datocms-assets.com{{dato.home[0].loading.path}}")
+          source(src="https://www.datocms-assets.com{{dato.home[0].bgMedia.path}}" type="video/webm")
     .content-container
       #break.container
         a(id='work')
