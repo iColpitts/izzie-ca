@@ -11,11 +11,11 @@ const env = require('dotenv').config()
 
 module.exports = {
   devtool: 'source-map',
-  matchers: { html: '*(**/)*.sgr', css: '*(**/)*.sss' },
+  matchers: { html: '*(**/)*.sgr'},
   ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock', 'package-lock.json'],
   reshape: htmlStandards({
     parser: sugarml,
-    locals: (ctx) => { return { pageId: pageId(ctx), foo: 'bar' } },
+    locals: (ctx) => { return { pageId: pageId(ctx), contentRoot: "https://www.datocms-assets.com/"} },
     minify: env === 'production'
   }),
   plugins: [
@@ -24,11 +24,11 @@ module.exports = {
       token: env.DATO_TOKEN,
       models: [
         {
-          name: 'work',
+          name: 'home',
           template: {
-            path: 'templates/work.html',
-            output: work => {
-              return `works/${work.slug}.html`
+            path: 'views/home.sgr',
+            output: home => {
+              return `index.html`
             }
           }
         }

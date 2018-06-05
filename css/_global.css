@@ -1,0 +1,256 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background: url(tv4.jpg);*/
+	height: 100%;
+}
+h1 {
+    font-weight: 900;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:visited {
+    color: #000;
+    text-shadow: 0.06em 0 red, -0.06em 0 cyan;
+}
+
+.link-shadow {
+  text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+  text-decoration: none;
+}
+
+#logo{
+    left: 0;
+    top: 0;
+    text-align: left;
+    padding-left: 120px;
+    /*z-index: 1;*/
+    /*position: fixed;*/
+}
+.whitebg {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.trans {
+	max-height: 100vh;
+	max-width: 100vh;
+	top: 0;
+	bottom: 0;
+}
+#trans-block {
+    display: block;
+    opacity: 1;
+    background-color: rgba(255,255,255,0.3);
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.content-container {
+  padding-top: 100vh;
+  padding-bottom: 150px;
+}
+
+#trans {
+	height: 100%;
+	width: 100%;
+}
+#bg {
+    display: none;
+    margin-top: 70px;
+    z-index: -99;
+}
+#bg2 {
+	display: none;
+}
+#header {
+    padding-top: 40px;
+    text-align: center;
+    background: rgba(255,255,255,1);
+    height: 10px;
+    /*width: 100%;*/
+    /*position: fixed;*/
+    left: 0;
+    top: 0;
+    /*z-index: 1;*/
+    /*padding-right: 100px*/
+}
+#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(tv4.jpg) no-repeat;
+    background-size: cover;
+}
+p {
+}
+#work {
+	padding-top: 200px;
+}
+#izzie {
+	padding-top: 200px;
+}
+video#bgvid {
+    transition: 1s opacity;
+}
+.stopfade { opacity: .5;
+}
+/*button {
+    display:block;
+    width:20%;
+    margin:0 auto;
+    height: 100px;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"Open Sans";
+    font-size:14px;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    background-color: rgba(1,45,67,0.5);
+}*/
+#vidpause {
+    background-image: url(/img/play.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    margin-top: -100px;
+	margin-right: 20px;
+    border: none;
+    position: relative;
+}
+#vidpause.active.focus, #vidpause.active:focus, #vidpause.focus, #vidpause:active.focus, #vidpause:active:focus, #vidpause:focus {
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+#button {
+    /*margin-top: 400px;*/
+    text-align: right;
+}
+blockquote {
+    border-left: none;
+}
+#about {
+    text-align: center;
+    display: block;
+    background-color: rgba(255,255,255,1);
+    /*bottom: 0;
+    height: 400px;*/
+    width: 100%;
+    /*left: 0;
+    margin-bottom: 400px;*/
+}
+#break {
+    background-color: rgba(255,255,255,1);
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #000;
+}
+h2 {
+    font-size: 600%;
+    color: #000;
+
+}
+
+
+#social {
+    display: block;
+    /*background-image: url(img/bg.jpg);*/
+    opacity: 1;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+}
+.commision {
+    font-size: 45px;
+    background-color: #fff;
+}
+.footer {
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+#contact {
+    color: #000;
+}
+#text-center{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+
+#logo{
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-left: 0px;
+    /*z-index: 1;*/
+    /*position: fixed;*/
+}
+.whitebg {
+    background-color: #fff;
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    top: 0;
+}
+#header {
+    padding-top: 20px;
+}
+video{
+    display: none;
+}
+#bg {
+    display: block;
+    margin-top: 130px;
+    z-index: -99;
+}
+#bg2 {
+	position: fixed;
+    display: block;
+    z-index: -99;
+}
+#button {
+    display: none;
+}
+#break {
+    padding-top: -70px;
+}
+.trans {
+	display: none;
+}
+/*#logo {
+    display: none;
+}*/
+}
