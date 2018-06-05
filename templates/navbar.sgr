@@ -1,0 +1,11 @@
+.whitebg.container
+  #logo: a(href='#')
+    img(src='https://www.datocms-assets.com/{{dato.navbar[0].logo.path}}')
+  #header: p
+    a(href='#') HOME
+    | |
+    a(href='#work') WORK
+    | |
+    a(href='#about') ABOUT
+    | |
+    a(href='#contact') CONTACT

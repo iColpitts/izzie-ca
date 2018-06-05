@@ -1,11 +1,10 @@
 extends(src='layout.sgr')
   block(name='content')
-
-    video(id="bgvid" autoplay loop poster="https://www.datocms-assets.com/{{item.loading.path}}")
-          source(src="https://www.datocms-assets.com/{{item.bgMedia.path}}" type="video/webm")
+    video(id="bgvid" autoplay loop muted poster="https://www.datocms-assets.com/{{dato.home[0].loading.path}}")
+          source(src="https://www.datocms-assets.com/{{dato.home[0].bgMedia.path}}" type="video/webm")
     .content-container
       #break.container
-        p Work
+        p: a#work Work
       #trans-block.container
         h1.link-shadow
           i:a( href="mailto:izzieccampbell@gmail.com?subject=Commission%20from%20site" target="_blank") COMMISSION IZZIE

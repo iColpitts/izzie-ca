@@ -8,13 +8,14 @@
   },
   "bugs": "https://github.com/test/tes/issues",
   "dependencies": {
+    "reshape-include": "^1.0.0",
     "reshape-standard": "^3.0.0",
+    "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
     "spike-datocms": "^2.3.1",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
-    "spike": "^2.0.0",
     "sugarml": "^0.6.0",
     "sugarss": "^1.0.0"
   },

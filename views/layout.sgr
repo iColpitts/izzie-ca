@@ -16,6 +16,8 @@ html
 
   body
     main(role='main' id='{{ pageId }}')
+    include(src='../templates/navbar.sgr')
+
     block(name='content')
 
     block(name='javascript')
