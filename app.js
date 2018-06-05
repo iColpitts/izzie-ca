@@ -21,7 +21,7 @@ module.exports = {
   plugins: [
     new SpikeDatoCMS({
       addDataTo: locals,
-      token: env.DATO_TOKEN,
+      token: process.env.DATO_TOKEN,
       models: [
         {
           name: 'home',
