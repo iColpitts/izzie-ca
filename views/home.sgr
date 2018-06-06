@@ -11,3 +11,5 @@ extends(src='layout.sgr')
             i:a(href={{action.url}} target="_blank") {{action.title}}
       if(condition='item.sections.find(x => x.itemType === "34921")')
         include(src='../templates/about.sgr')
+      if(condition='item.sections.find(x => x.itemType === "34922")')
+        include(src='../templates/contact.sgr')

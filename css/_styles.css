@@ -76,3 +76,14 @@
   text-align: left;
   margin: 15px;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact>i {
+  padding: 10px;
+}
+.contact:not(:last-child)::after {
+  content: ' | ';
+  padding: 10px;
+}
