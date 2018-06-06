@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     new SpikeDatoCMS({
       addDataTo: locals,
-      token: .env.DATO_TOKEN,
+      token: env.DATO_TOKEN,
       models: [
         {
           type: 'navbar',
