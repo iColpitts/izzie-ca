@@ -1,8 +1,8 @@
 
 body {
-    font-family: 'Roboto', sans-serif;
-    /*background: url(tv4.jpg);*/
+  font-family: 'Roboto', sans-serif;
 	height: 100%;
+  margin: 0;
 }
 h1 {
     font-weight: 900;
