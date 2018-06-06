@@ -1,6 +1,6 @@
 .whitebg.container.nav
   .nav-left: a(href='#')
-    img(class='logo' src='https://www.datocms-assets.com/{{dato.navbar[0].logo.path}}')
+    img(class='logo' src='https://www.datocms-assets.com{{dato.navbar[0].logo.path}}')
   .nav-links: p
     a(href='#')  HOME
     |  |
