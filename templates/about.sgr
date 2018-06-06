@@ -1,0 +1,8 @@
+.container.whitebg.column
+  h1: a(id='about'): i ABOUT IZZIE
+  each(loop='section in item.sections')
+    if(condition='section.itemType === "34921"')
+      .container.about
+        .thumbnail
+          img(src='https://www.datocms-assets.com{{section.headshot.path}}')
+        p {{section.bio}}
