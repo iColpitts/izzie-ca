@@ -7,9 +7,6 @@
 .whitebg {
     background-color: #fff;
     width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
 }
 #trans-block {
     display: block;
@@ -28,6 +25,7 @@
   height: 100px;
   opacity: 0.8;
   flex-direction: row;
+  z-index: 1;
 }
 .nav-links {
   padding-right: 120px;

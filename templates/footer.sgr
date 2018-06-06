@@ -1,0 +1,2 @@
+.whitebg.container
+  p {{dato.footer[0].text}}

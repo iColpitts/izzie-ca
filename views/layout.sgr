@@ -8,7 +8,7 @@ html
     meta(name='viewport' content='width=device-width, initial-scale=1')
 
     block(name='title')
-      title Title of Your Site
+      title Izzie - Creative technologist + art maker in Toronto
 
     link(rel='stylesheet' href='css/index.css')
 
@@ -18,5 +18,6 @@ html
 
     block(name='content')
 
+    include(src='../templates/footer.sgr')
     block(name='javascript')
       script(src='js/main.js' defer)
