@@ -13,9 +13,18 @@ a {
     color: #000;
     text-decoration: none;
 }
-a:hover, a:visited {
+a:hover:link, a:visited {
     color: #000;
     text-shadow: 0.06em 0 red, -0.06em 0 cyan;
+}
+
+img {
+  vertical-align: middle;
+}
+.thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link-shadow {

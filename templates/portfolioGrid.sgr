@@ -1,0 +1,6 @@
+each(loop='section in item.sections')
+  if(condition='section.itemType === "34952"')
+    .grid
+      each(loop='work in section.featured')
+        a(href={{work.slug}} class='thumbnail')
+          img(src='https://www.datocms-assets.com{{work.thumbnail.path}}' alt='{{work.thumbnail.alt}}')

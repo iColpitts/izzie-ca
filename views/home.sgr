@@ -1,0 +1,13 @@
+extends(src='layout.sgr')
+  block(name='content')
+    video(id="bgvid" autoplay loop muted poster="https://www.datocms-assets.com{{item.loading.path}}")
+          source(src="https://www.datocms-assets.com{{item.bgMedia.path}}" type="video/webm")
+    .content-container
+      #break.container
+        h1: a(id='work'): i WORK
+        if(condition='item.sections.find(x => x.itemType === "34952")')
+          include(src='../templates/portfolioGrid.sgr')
+      #trans-block.container
+        h1.link-shadow
+          each(loop='action in item.callToAction')
+            i:a(href={{action.url}} target="_blank") {{action.title}}
