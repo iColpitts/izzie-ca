@@ -1,0 +1,8 @@
+#trans-block
+  .contact
+    a(id='contact')
+      each(loop='section in item.sections')
+        if(condition='section.itemType === "34922"')
+          each(loop='link in section.links')
+            h1.link-shadow.contact
+              i:a(href={{link.url}} target="_blank") {{link.title}}
